@@ -1,0 +1,548 @@
+# Copyright (C) 2016 ScrapeAZon
+# This file is distributed under the same license as the ScrapeAZon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ScrapeAZon 2.2.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/scrapeazon\n"
+"POT-Creation-Date: 2016-04-26 14:16:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: szclasses.php:117 szclasses.php:773
+msgid "Settings"
+msgstr ""
+
+#: szclasses.php:118
+msgid "Test"
+msgstr ""
+
+#: szclasses.php:253
+msgid ""
+"In order to access customer review data from Amazon.com, you must have an "
+"Amazon.com Associate ID, an Amazon Web Services (AWS) Access Key Id, and an "
+"AWS Secret Key. You can obtain an Associate ID by signing up to be an "
+msgstr ""
+
+#: szclasses.php:254
+msgid "Amazon.com affiliate"
+msgstr ""
+
+#: szclasses.php:255
+msgid ". You can obtain the AWS credentials by signing up to use the "
+msgstr ""
+
+#: szclasses.php:256
+msgid "Product Advertising API"
+msgstr ""
+
+#: szclasses.php:264
+msgid ""
+"If you have correctly configured ScrapeAZon, you should see an iframe below "
+"that contains Amazon.com reviews for the Kindle short story "
+msgstr ""
+
+#: szclasses.php:265
+msgid "located here"
+msgstr ""
+
+#: szclasses.php:266
+msgid " on Amazon. The shortcode used to produce this test is "
+msgstr ""
+
+#: szclasses.php:267
+msgid ""
+". If you see reviews in the iframe below, ScrapeAZon is configured correctly "
+"and should work on your site. If you see no data or if you see an error "
+"displayed below, please double-check your configuration."
+msgstr ""
+
+#: szclasses.php:275
+msgid "WARNING!"
+msgstr ""
+
+#: szclasses.php:276
+msgid ""
+"You should make a backup of your WordPress database before attempting to use "
+"the <strong>Clear Cache</strong> option. The <strong>Clear Cache</strong> "
+"option attempts to delete data directly from the WordPress database and is "
+"therefore dangerous. Use the <strong>Clear Cache</strong> option with "
+"caution."
+msgstr ""
+
+#: szclasses.php:284
+msgid ""
+"A tutorial for configuring ScrapeAZon is available at the <a href=\"http://"
+"www.timetides.com/2015/01/09/configure-scrapeazon-wordpress\" target=\"_blank"
+"\">author's Web site</a>."
+msgstr ""
+
+#: szclasses.php:285 szclasses.php:778
+msgid "Shortcode"
+msgstr ""
+
+#: szclasses.php:286
+msgid ""
+"Insert the above shortcode into any page or post where you want Amazon.com "
+"customer reviews to appear. Replace "
+msgstr ""
+
+#: szclasses.php:287
+msgid ""
+" with the product ASIN or ISBN-10 to retrieve and display the reviews for "
+"that product."
+msgstr ""
+
+#: szclasses.php:288
+msgid ""
+"For a more detailed and complete overview of how ScrapeAZon works, click the "
+"\"Help\" tab on the upper right of the ScrapeAZon settings page."
+msgstr ""
+
+#: szclasses.php:366
+msgid "ScrapeAZon Settings"
+msgstr ""
+
+#: szclasses.php:373
+msgid "ScrapeAZon Test Frame"
+msgstr ""
+
+#: szclasses.php:380
+msgid "ScrapeAZon Performance"
+msgstr ""
+
+#: szclasses.php:387
+msgid "ScrapeAZon Usage"
+msgstr ""
+
+#: szclasses.php:540
+msgid "AWS Access Key ID"
+msgstr ""
+
+#: szclasses.php:545
+msgid ""
+"Enter your 20-character AWS Access Key. This must be your root AWS Access "
+"Key."
+msgstr ""
+
+#: szclasses.php:551
+msgid "AWS Secret Key"
+msgstr ""
+
+#: szclasses.php:556
+msgid ""
+"Enter your 40-character AWS Secret Key. This must be your root AWS Secret "
+"Key."
+msgstr ""
+
+#: szclasses.php:562
+msgid "Amazon Associate ID"
+msgstr ""
+
+#: szclasses.php:567
+msgid "Enter your Amazon Advertising Associate ID."
+msgstr ""
+
+#: szclasses.php:573
+msgid "Alternate Disclaimer"
+msgstr ""
+
+#: szclasses.php:578
+msgid ""
+"If you prefer to use your own disclaimer language, enter it here. Remember "
+"that Amazon requires text similar to this to appear somewhere on your site "
+"to maintain compliance with the Amazon Advertising API Terms of Service."
+msgstr ""
+
+#: szclasses.php:585
+msgid "Amazon Country ID"
+msgstr ""
+
+#: szclasses.php:590
+msgid ""
+"Select the country code for the Amazon International API from which you want "
+"to pull reviews."
+msgstr ""
+
+#: szclasses.php:596
+msgid "Truncate Reviews At"
+msgstr ""
+
+#: szclasses.php:601
+msgid ""
+"Number of characters at which to truncate reviews (0 returns entire review)."
+msgstr ""
+
+#: szclasses.php:607
+msgid "Use Responsive Style"
+msgstr ""
+
+#: szclasses.php:612
+msgid ""
+"Select this checkbox to enable ScrapeAZon styles for sites with responsive "
+"design."
+msgstr ""
+
+#: szclasses.php:618
+msgid "Test Frame"
+msgstr ""
+
+#: szclasses.php:623
+msgid "ScrapeAZon Test Frame."
+msgstr ""
+
+#: szclasses.php:629 szclasses.php:750
+msgid "Cache Expires In"
+msgstr ""
+
+#: szclasses.php:634
+msgid ""
+"The number of hours that should pass before cached Amazon API calls expire. "
+"Cannot be more than 23 hours. Default is 12."
+msgstr ""
+
+#: szclasses.php:640 szclasses.php:758
+msgid "Defer Until Footer"
+msgstr ""
+
+#: szclasses.php:645
+msgid ""
+"Loads the ScrapeAZon iframe data asynchronously for better site performance. "
+"This option ONLY works if you do not use the \"url\" shortcode parameter. "
+"See the Help menu for more information."
+msgstr ""
+
+#: szclasses.php:651
+msgid "Clear Cache"
+msgstr ""
+
+#: szclasses.php:656
+msgid "Clears ScrapeAZon transient data."
+msgstr ""
+
+#: szclasses.php:664
+msgid ""
+"The ScrapeAZon plugin retrieves Amazon.com customer reviews for products you "
+"choose and displays them in pages or posts on your WordPress blog by way of "
+"a WordPress shortcode."
+msgstr ""
+
+#: szclasses.php:666
+msgid ""
+"You must be a participant in both the Amazon.com Affiliate Program and the "
+"Amazon.com Product Advertising API in order to use this plugin. Links to "
+"Amazon.com forms to join those programs are available on the ScrapeAZon "
+"Settings page."
+msgstr ""
+
+#: szclasses.php:669
+msgid "The following ScrapeAZon Settings fields are "
+msgstr ""
+
+#: szclasses.php:671
+msgid "required"
+msgstr ""
+
+#: szclasses.php:673
+msgid "A 20-character key assigned to you by the AWS Product Advertising API."
+msgstr ""
+
+#: szclasses.php:675
+msgid ""
+"A 40-character secret key assigned to you by the Amazon Product Advertising "
+"API."
+msgstr ""
+
+#: szclasses.php:677
+msgid ""
+"The short string of characters that identifies your Amazon associate account."
+msgstr ""
+
+#: szclasses.php:679
+msgid "The following ScrapeAZon Settings are optional"
+msgstr ""
+
+#: szclasses.php:681
+msgid ""
+"If you select a country here, you will globally enable that country for all "
+"your ScrapeAZon shortcodes. If you leave it blank, ScrapeAZon shortcodes "
+"will default to reviews from Amazon US unless the "
+msgstr ""
+
+#: szclasses.php:683
+msgid " parameter is specified in the shortcode."
+msgstr ""
+
+#: szclasses.php:685
+msgid ""
+"Specifying 0 here will always return the entirety of reviews. If you specify "
+"a positive value other than 0, the text of each review will be truncated to "
+"that number of characters. The default truncate value is 1000 characters. "
+"This global setting can be overridden at the shortcode level by configuring "
+"the shortcode "
+msgstr ""
+
+#: szclasses.php:687
+msgid " parameter. "
+msgstr ""
+
+#: szclasses.php:689
+msgid ""
+"Selecting this checkbox loads a default ScrapeAZon style sheet that will "
+"attempt to scale output for sites that have a responsive design. If you "
+"specify the "
+msgstr ""
+
+#: szclasses.php:691
+msgid "and "
+msgstr ""
+
+#: szclasses.php:693
+msgid ""
+"parameters in a shortcode, the containing element will default to that width "
+"and height."
+msgstr ""
+
+#: szclasses.php:696
+msgid "Type the shortcode "
+msgstr ""
+
+#: szclasses.php:698
+msgid " where "
+msgstr ""
+
+#: szclasses.php:700
+msgid ""
+"is the ASIN or ISBN-10 of the product reviews you want to retrieve. The "
+"shortcode must be issued in text format in your page or post, not Visual "
+"format. Otherwise, the quotation marks inside the shortcode might be "
+"rendered incorrectly."
+msgstr ""
+
+#: szclasses.php:702
+msgid ""
+"You can also issue the ScrapeAZon shortcode with one of the following "
+"identifers instead of using an ASIN"
+msgstr ""
+
+#: szclasses.php:704
+msgid ""
+"Retrieves reviews by using an International Standard Book Number (ISBN) value"
+msgstr ""
+
+#: szclasses.php:706
+msgid ""
+"Retrieves reviews by using a Universal Product Code (UPC) value (not valid "
+"in CA locale)"
+msgstr ""
+
+#: szclasses.php:708
+msgid "Retrieves reviews by using a stock keeping unit (SKU) value"
+msgstr ""
+
+#: szclasses.php:710
+msgid "Retrieves reviews by using a European Article Number (EAN) value"
+msgstr ""
+
+#: szclasses.php:712
+msgid ""
+"You can also issue the ScrapeAZon shortcode with the following additional "
+"parameters"
+msgstr ""
+
+#: szclasses.php:714
+msgid ""
+"Specifies the width of the reviews iframe, or of the containing element if "
+"the responsive option is enabled. Append a percent (%) symbol to this value "
+"if you are specifying your width in percentages rather than pixels. "
+"Otherwise, specify digits only."
+msgstr ""
+
+#: szclasses.php:716
+msgid ""
+"Specifies the height of the reviews iframe, or of the containing element if "
+"the responsive option is enabled. Append a percent (%) symbol to this value "
+"if you are specifying your height in percentages rather than pixels. "
+"Otherwise, specify digits only."
+msgstr ""
+
+#: szclasses.php:718 szclasses.php:724 szclasses.php:728
+msgid "When set to "
+msgstr ""
+
+#: szclasses.php:720
+msgid "disables the border that some browsers automatically add to iframes."
+msgstr ""
+
+#: szclasses.php:722
+msgid ""
+"Overrides the global country setting on the Settings page. Use the two-"
+"character country code for the Amazon International site from which you want "
+"to obtain reviews."
+msgstr ""
+
+#: szclasses.php:726
+msgid ""
+"prevents ScrapeAZon from displaying an iframe for products that have no "
+"reviews. By default, ScrapeAZon displays an iframe that contains Amazon's "
+"\"Be the first to review this item\" page."
+msgstr ""
+
+#: szclasses.php:730
+msgid ""
+"returns ONLY the iFrame source URL, not the iFrame itself. This can be "
+"useful if you want more advanced control over the iframe element attributes "
+"because you can include the shortcode within the SRC attribute of a manually "
+"coded iframe tag. Default value is"
+msgstr ""
+
+#: szclasses.php:734
+msgid "After you have saved your ScrapeAZon Settings by clicking the "
+msgstr ""
+
+#: szclasses.php:736
+msgid "Save Changes"
+msgstr ""
+
+#: szclasses.php:738
+msgid "button, you can click the "
+msgstr ""
+
+#: szclasses.php:740
+msgid "Tests"
+msgstr ""
+
+#: szclasses.php:742
+msgid "tab to view some sample reviews frames based on your settings."
+msgstr ""
+
+#: szclasses.php:744
+msgid ""
+"If you do not see sample Amazon output on this tab, your ScrapeAZon settings "
+"might be incorrect."
+msgstr ""
+
+#: szclasses.php:747
+msgid ""
+"By default, ScrapeAZon caches Amazon API calls for 12 hours to enhance site "
+"performance. "
+msgstr ""
+
+#: szclasses.php:748
+msgid ""
+"You can adjust the amount of time ScrapeAZon caches this data by adjusting "
+"the"
+msgstr ""
+
+#: szclasses.php:752
+msgid "value to the number of hours you want the cached data to persist."
+msgstr ""
+
+#: szclasses.php:754
+msgid ""
+"You can also choose to clear the existing cached data from the WordPress "
+"database. However, you should always back up your WordPress database before "
+"attempting to delete data in bulk."
+msgstr ""
+
+#: szclasses.php:756
+msgid "Select the "
+msgstr ""
+
+#: szclasses.php:760
+msgid ""
+" field to ensure that the entire main page of your site loads before "
+"ScrapeAZon attempts to load the reviews iframe. This option only works for "
+"the iframe. If you use a caching plugin, such as W3 Total Cache, you might "
+"need to adjust your settings for this option to work properly."
+msgstr ""
+
+#: szclasses.php:762
+msgid ""
+"Please be aware that if you are using a caching plugin, such as W3 Total "
+"Cache, with object caching enabled, the Clear Cache option will not do "
+"anything. You will need to clear the object cache by using the caching "
+"plugin's clear cache feature."
+msgstr ""
+
+#: szclasses.php:768
+msgid "Overview"
+msgstr ""
+
+#: szclasses.php:783
+msgid "Tests Tab"
+msgstr ""
+
+#: szclasses.php:788
+msgid "Performance Tab"
+msgstr ""
+
+#: szclasses.php:798
+msgid "Cache cleared"
+msgstr ""
+
+#: szclasses.php:826 szclasses.php:871
+msgid "Amazon Reviews"
+msgstr ""
+
+#: szclasses.php:827
+msgid "Display Amazon.com reviews for a product you specify."
+msgstr ""
+
+#: szclasses.php:923
+msgid "Title:"
+msgstr ""
+
+#: szclasses.php:925
+msgid "ID Type:"
+msgstr ""
+
+#: szclasses.php:933
+msgid "ID:"
+msgstr ""
+
+#: szclasses.php:935
+msgid "Truncate Reviews At:"
+msgstr ""
+
+#: szclasses.php:937
+msgid "Width:"
+msgstr ""
+
+#: szclasses.php:939
+msgid "Height:"
+msgstr ""
+
+#: szclasses.php:941
+msgid "Border (true/false):"
+msgstr ""
+
+#: szclasses.php:1265
+msgid "<p>Some ScrapeAZon settings have not been configured.</p>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ScrapeAZon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.timetides.com/scrapeazon-plugin-wordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Retrieves Amazon.com reviews for products you choose from the Amazon Product "
+"Advertising API and displays those reviews in pages, posts, or as a widget "
+"on your WordPress blog."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "James R. Hanback, Jr."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.timetides.com"
+msgstr ""
